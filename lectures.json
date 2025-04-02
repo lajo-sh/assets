@@ -1,60 +1,51 @@
 [
   {
     "id": "1",
-    "title": "Introduction to Programming",
+    "title": "Uvod u Phishing",
     "lectureItems": [
       {
-        "id": "1",
-        "title": "What is Programming?",
+        "id": 1,
+        "title": "Što je phishing?",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Programming is the process of creating a set of instructions that tell a computer how to perform a task."
+            "text": "Phishing je prijevara u kojoj napadači varaju ljude da otkriju osjetljive informacije ili instaliraju zlonamjerni softver poput virusa, crva, adwarea ili ransomwarea."
           },
           {
             "type": "image",
-            "imageUrl": "https://raw.githubusercontent.com/lajo-sh/assets/main/images/programming-concept.png"
-          },
-          {
-            "type": "text",
-            "text": "These instructions are called programs and are written using programming languages."
+            "imageUrl": "https://rsbxlrr4qa.ufs.sh/f/OokKF9ACg9usUQY30Qls65DZeH9L178FPrvn3Y0fVoqSxJbd",
           }
         ]
       },
       {
         "id": "2",
-        "title": "Basic Concepts",
+        "title": "Kako radi Phishing?",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Let's learn about variables, data types, and control flow."
+            "text": "Phishing funkcionira tako da korisnika navede na klikanje na zlonamjerne poveznice, preuzimanje sumnjivih privitaka ili unošenje osobnih podataka na lažne web stranice."
           },
           {
-            "type": "image",
-            "imageUrl": "https://raw.githubusercontent.com/lajo-sh/assets/main/images/variables.png"
+            "type": "text",
+            "text": "Napadači često koriste socijalni inženjering kako bi žrtve povjerovale da su poruke legitimne. Mogu koristiti lažne logotipe, imena i adrese e-pošte koje izgledaju autentično."
+          },
+          {
+            "type": "text",
+            "text": "Nakon što žrtva klikne na poveznicu, može biti preusmjerena na web stranicu koja izgleda identično pravoj, ali zapravo prikuplja njene podatke. Alternativno, zlonamjerni softver može se preuzeti na uređaj korisnika."
           }
         ]
-      }
-    ],
-    "quiz": {
+      }     
+    ]
+  },
+  "quiz": {
       "questions": [
         {
-          "question": "What is a program?",
+          "question": "Što je phishing?",
           "answers": [
-            "A set of instructions for a computer",
-            "A type of computer",
-            "A piece of hardware",
-            "An operating system"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "question": "Which of these is a data type?",
-          "answers": [
-            "Monitor",
-            "String",
-            "Keyboard",
-            "Mouse"
+            "Način pecanja ribe",
+            "Kibernetički napad koji vara pojedince da otkriju osjetljive informacije",
+            "Vrsta softvera",
+            "Programski jezik"
           ],
           "correctAnswer": "1"
         }

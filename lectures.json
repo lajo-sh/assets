@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Programming",
+    "lectureItems": [
+      {
+        "id": "1",
+        "title": "What is Programming?",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Programming is the process of creating a set of instructions that tell a computer how to perform a task."
+          },
+          {
+            "type": "image",
+            "imageUrl": "https://raw.githubusercontent.com/lajo-sh/assets/main/images/programming-concept.png"
+          },
+          {
+            "type": "text",
+            "text": "These instructions are called programs and are written using programming languages."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Basic Concepts",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Let's learn about variables, data types, and control flow."
+          },
+          {
+            "type": "image",
+            "imageUrl": "https://raw.githubusercontent.com/lajo-sh/assets/main/images/variables.png"
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is a program?",
+          "answers": [
+            "A set of instructions for a computer",
+            "A type of computer",
+            "A piece of hardware",
+            "An operating system"
+          ],
+          "correctAnswer": "0"
+        },
+        {
+          "question": "Which of these is a data type?",
+          "answers": [
+            "Monitor",
+            "String",
+            "Keyboard",
+            "Mouse"
+          ],
+          "correctAnswer": "1"
+        }
+      ]
+    }
+  }
+]

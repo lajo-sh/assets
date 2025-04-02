@@ -13,7 +13,7 @@
           },
           {
             "type": "image",
-            "imageUrl": "https://rsbxlrr4qa.ufs.sh/f/OokKF9ACg9usUQY30Qls65DZeH9L178FPrvn3Y0fVoqSxJbd",
+            "imageUrl": "https://rsbxlrr4qa.ufs.sh/f/OokKF9ACg9usUQY30Qls65DZeH9L178FPrvn3Y0fVoqSxJbd"
           }
         ]
       },
@@ -34,6 +34,40 @@
             "text": "Nakon što žrtva klikne na poveznicu, može biti preusmjerena na web stranicu koja izgleda identično pravoj, ali zapravo prikuplja njene podatke. Alternativno, zlonamjerni softver može se preuzeti na uređaj korisnika."
           }
         ]
+      },
+      {
+        "id": "3",
+        "title": "Typosquatting napadi",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Typosquatting je vrsta cyber napada gdje napadači registriraju domene slične legitimnim web stranicama, računajući na tipfeler korisnika. Na primjer: 'gooogle.com' umjesto 'google.com' ili 'faceb00k.com' umjesto 'facebook.com'."
+          },
+          {
+            "type": "text",
+            "text": "Ove lažne stranice često izgledaju identično pravima i koriste se za krađu podataka za prijavu ili širenje zlonamjernog softvera."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Spear Phishing",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Spear phishing je ciljani oblik phishinga gdje napadači prilagođavaju napade specifičnim osobama ili organizacijama. Koriste osobne informacije prikupljene s društvenih mreža ili drugih izvora kako bi napadi izgledali uvjerljivije."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Prepoznavanje phishing napada",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Ključni znakovi phishing napada uključuju: neočekivane poruke koje traže hitnu akciju, pravopisne i gramatičke pogreške, čudne adrese e-pošte, poveznice koje vode na sumnjive stranice i zahtjeve za osjetljivim informacijama."
+          }
+        ]
       }     
     ],
     
@@ -48,8 +82,28 @@
             "Programski jezik"
           ],
           "correctAnswer": "1"
+        },
+        {
+          "question": "Što je typosquatting?",
+          "answers": [
+            "Pogreške u tipkanju",
+            "Registracija domena sličnih legitimnim stranicama radi prevare",
+            "Vrsta antivirusnog programa",
+            "Program za učenje tipkanja"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "Što karakterizira spear phishing?",
+          "answers": [
+            "Masovno slanje spam poruka",
+            "Ciljani napadi na specifične osobe ili organizacije",
+            "Automatizirani napadi",
+            "Napadi na banke"
+          ],
+          "correctAnswer": "1"
         }
       ]
     }
-  },
+  }
 ]

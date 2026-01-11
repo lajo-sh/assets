@@ -1,0 +1,37 @@
+name: Update Adult Blocklist
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs daily at midnight UTC
+  workflow_dispatch:    # allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Fetch adult domains list
+        run: |
+          curl -sSL "https://github.com/cipher-oos/Categorized-Web-Filter-Blocklists/raw/refs/heads/main/Blacklist/adult/domains" -o domains.txt
+
+      - name: Compress to domains.gz
+        run: |
+          gzip -c domains.txt > domains.gz
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet domains.gz; then
+            echo "No changes to commit"
+          else
+            git add domains.gz
+            git commit -m "Update adult blocklist $(date +'%Y-%m-%d')"
+            git push
+          fi

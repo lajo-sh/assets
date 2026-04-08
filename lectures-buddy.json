@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "title": "Buddy -- edu mod",
+    "title": "Tko je stvarno s druge strane?",
     "lectureItems": [
       {
         "id": 1,
-        "title": "Lekcija 1: Tko je stvarno s druge strane?",
+        "title": "Identitet na internetu",
         "lectureElements": [
           {
             "type": "text",
@@ -18,60 +18,6 @@
           {
             "type": "text",
             "text": "💡 Pravilo: Ako nisi siguran, reći roditelju je uvijek dobra odluka."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Lekcija 2: Ne dijeli osobne podatke",
-        "lectureElements": [
-          {
-            "type": "text",
-            "text": "Osobni podaci su stvari koje govore tko si ti. To uključuje: ime i prezime, adresu, školu, broj telefona i slike."
-          },
-          {
-            "type": "text",
-            "text": "Nikada nemoj dijeliti ove podatke s osobama koje ne poznaješ."
-          },
-          {
-            "type": "text",
-            "text": "💡 Pravilo: Ako nisi siguran --- nemoj poslati."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Lekcija 3: Prepoznaj čudno ponašanje",
-        "lectureElements": [
-          {
-            "type": "text",
-            "text": "Neki ljudi pokušavaju biti jako ljubazni kako bi zadobili tvoje povjerenje."
-          },
-          {
-            "type": "text",
-            "text": "Ako netko piše stalno i brzo, govori da si \"poseban/na\", želi razgovarati samo s tobom ili pokušava te nagovoriti na nešto → to može biti znak manipulacije."
-          },
-          {
-            "type": "text",
-            "text": "💡 Pravilo: Pravi prijatelji te ne tjeraju na nelagodu."
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Lekcija 4: Što učiniti kad nešto nije u redu?",
-        "lectureElements": [
-          {
-            "type": "text",
-            "text": "Ako se dogodi nešto čudno ili te netko uznemiri: nemoj odgovarati, blokiraj osobu i reci roditelju."
-          },
-          {
-            "type": "text",
-            "text": "Nisi u nevolji ako nekome kažeš --- to je pametna stvar."
-          },
-          {
-            "type": "text",
-            "text": "💡 Pravilo: Bolje reći nego šutjeti."
           }
         ]
       }
@@ -95,7 +41,35 @@
             "Ignorirati"
           ],
           "correctAnswer": "1"
-        },
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "title": "Ne dijeli osobne podatke",
+    "lectureItems": [
+      {
+        "id": 1,
+        "title": "Što su osobni podaci?",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Osobni podaci su stvari koje govore tko si ti. To uključuje: ime i prezime, adresu, školu, broj telefona i slike."
+          },
+          {
+            "type": "text",
+            "text": "Nikada nemoj dijeliti ove podatke s osobama koje ne poznaješ."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Ako nisi siguran --- nemoj poslati."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "questions": [
         {
           "question": "Koji je osobni podatak?",
           "answers": [
@@ -113,7 +87,35 @@
             "Ignorirati"
           ],
           "correctAnswer": "1"
-        },
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "title": "Prepoznaj čudno ponašanje",
+    "lectureItems": [
+      {
+        "id": 1,
+        "title": "Znakovi manipulacije",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Neki ljudi pokušavaju biti jako ljubazni kako bi zadobili tvoje povjerenje."
+          },
+          {
+            "type": "text",
+            "text": "Ako netko piše stalno i brzo, govori da si \"poseban/na\", želi razgovarati samo s tobom ili pokušava te nagovoriti na nešto → to može biti znak manipulacije."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Pravi prijatelji te ne tjeraju na nelagodu."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "questions": [
         {
           "question": "Netko ti piše stalno i traži da pričaš samo s njim. To je:",
           "answers": [
@@ -131,7 +133,35 @@
             "Sigurno i ugodno"
           ],
           "correctAnswer": "2"
-        },
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "title": "Što učiniti kad nešto nije u redu?",
+    "lectureItems": [
+      {
+        "id": 1,
+        "title": "Kako se zaštititi",
+        "lectureElements": [
+          {
+            "type": "text",
+            "text": "Ako se dogodi nešto čudno ili te netko uznemiri: nemoj odgovarati, blokiraj osobu i reci roditelju."
+          },
+          {
+            "type": "text",
+            "text": "Nisi u nevolji ako nekome kažeš --- to je pametna stvar."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Bolje reći nego šutjeti."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "questions": [
         {
           "question": "Netko te uznemirava. Što prvo napraviti?",
           "answers": [

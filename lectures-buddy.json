@@ -1,107 +1,154 @@
 [
   {
     "id": "1",
-    "title": "Uvod u Phishing",
+    "title": "Buddy -- edu mod",
     "lectureItems": [
       {
         "id": 1,
-        "title": "Što je phishing?",
+        "title": "Lekcija 1: Tko je stvarno s druge strane?",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Phishing je prijevara u kojoj napadači varaju ljude da otkriju osjetljive informacije ili instaliraju zlonamjerni softver poput virusa, crva, adwarea ili ransomwarea."
+            "text": "Na internetu ne možeš uvijek znati tko je stvarno s druge strane. Netko može reći da je dijete, ali zapravo biti odrasla osoba."
           },
           {
-            "type": "image",
-            "imageUrl": "https://rsbxlrr4qa.ufs.sh/f/OokKF9ACg9usUQY30Qls65DZeH9L178FPrvn3Y0fVoqSxJbd"
+            "type": "text",
+            "text": "Ako te netko pita osobne stvari, želi biti \"tvoj najbolji prijatelj odmah\" ili traži da nešto zadržiš tajnom → to može biti znak opasnosti."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Ako nisi siguran, reći roditelju je uvijek dobra odluka."
           }
         ]
       },
       {
-        "id": "2",
-        "title": "Kako radi Phishing?",
+        "id": 2,
+        "title": "Lekcija 2: Ne dijeli osobne podatke",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Phishing funkcionira tako da korisnika navede na klikanje na zlonamjerne poveznice, preuzimanje sumnjivih privitaka ili unošenje osobnih podataka na lažne web stranice."
+            "text": "Osobni podaci su stvari koje govore tko si ti. To uključuje: ime i prezime, adresu, školu, broj telefona i slike."
           },
           {
             "type": "text",
-            "text": "Napadači često koriste socijalni inženjering kako bi žrtve povjerovale da su poruke legitimne. Mogu koristiti lažne logotipe, imena i adrese e-pošte koje izgledaju autentično."
+            "text": "Nikada nemoj dijeliti ove podatke s osobama koje ne poznaješ."
           },
           {
             "type": "text",
-            "text": "Nakon što žrtva klikne na poveznicu, može biti preusmjerena na web stranicu koja izgleda identično pravoj, ali zapravo prikuplja njene podatke. Alternativno, zlonamjerni softver može se preuzeti na uređaj korisnika."
+            "text": "💡 Pravilo: Ako nisi siguran --- nemoj poslati."
           }
         ]
       },
       {
-        "id": "3",
-        "title": "Typosquatting napadi",
+        "id": 3,
+        "title": "Lekcija 3: Prepoznaj čudno ponašanje",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Typosquatting je vrsta cyber napada gdje napadači registriraju domene slične legitimnim web stranicama, računajući na tipfeler korisnika. Na primjer: 'gooogle.com' umjesto 'google.com' ili 'faceb00k.com' umjesto 'facebook.com'."
+            "text": "Neki ljudi pokušavaju biti jako ljubazni kako bi zadobili tvoje povjerenje."
           },
           {
             "type": "text",
-            "text": "Ove lažne stranice često izgledaju identično pravima i koriste se za krađu podataka za prijavu ili širenje zlonamjernog softvera."
+            "text": "Ako netko piše stalno i brzo, govori da si \"poseban/na\", želi razgovarati samo s tobom ili pokušava te nagovoriti na nešto → to može biti znak manipulacije."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Pravi prijatelji te ne tjeraju na nelagodu."
           }
         ]
       },
       {
-        "id": "4",
-        "title": "Spear Phishing",
+        "id": 4,
+        "title": "Lekcija 4: Što učiniti kad nešto nije u redu?",
         "lectureElements": [
           {
             "type": "text",
-            "text": "Spear phishing je ciljani oblik phishinga gdje napadači prilagođavaju napade specifičnim osobama ili organizacijama. Koriste osobne informacije prikupljene s društvenih mreža ili drugih izvora kako bi napadi izgledali uvjerljivije."
-          }
-        ]
-      },
-      {
-        "id": "5",
-        "title": "Prepoznavanje phishing napada",
-        "lectureElements": [
+            "text": "Ako se dogodi nešto čudno ili te netko uznemiri: nemoj odgovarati, blokiraj osobu i reci roditelju."
+          },
           {
             "type": "text",
-            "text": "Ključni znakovi phishing napada uključuju: neočekivane poruke koje traže hitnu akciju, pravopisne i gramatičke pogreške, čudne adrese e-pošte, poveznice koje vode na sumnjive stranice i zahtjeve za osjetljivim informacijama."
+            "text": "Nisi u nevolji ako nekome kažeš --- to je pametna stvar."
+          },
+          {
+            "type": "text",
+            "text": "💡 Pravilo: Bolje reći nego šutjeti."
           }
         ]
-      }     
+      }
     ],
-    
-  "quiz": {
+    "quiz": {
       "questions": [
         {
-          "question": "Što je phishing?",
+          "question": "Netko online kaže da ima 12 godina. Što je točno?",
           "answers": [
-            "Način pecanja ribe",
-            "Kibernetički napad koji vara pojedince da otkriju osjetljive informacije",
-            "Vrsta softvera",
-            "Programski jezik"
+            "Sigurno govori istinu",
+            "Možda ne govori istinu",
+            "Nije važno"
           ],
           "correctAnswer": "1"
         },
         {
-          "question": "Što je typosquatting?",
+          "question": "Netko te traži da čuvaš tajnu od roditelja. Što trebaš napraviti?",
           "answers": [
-            "Pogreške u tipkanju",
-            "Registracija domena sličnih legitimnim stranicama radi prevare",
-            "Vrsta antivirusnog programa",
-            "Program za učenje tipkanja"
+            "Čuvati tajnu",
+            "Reći roditelju",
+            "Ignorirati"
           ],
           "correctAnswer": "1"
         },
         {
-          "question": "Što karakterizira spear phishing?",
+          "question": "Koji je osobni podatak?",
           "answers": [
-            "Masovno slanje spam poruka",
-            "Ciljani napadi na specifične osobe ili organizacije",
-            "Automatizirani napadi",
-            "Napadi na banke"
+            "Omiljena igra",
+            "Adresa",
+            "Omiljena boja"
           ],
           "correctAnswer": "1"
+        },
+        {
+          "question": "Netko traži tvoju sliku. Što učiniti?",
+          "answers": [
+            "Poslati",
+            "Pitati roditelja",
+            "Ignorirati"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "Netko ti piše stalno i traži da pričaš samo s njim. To je:",
+          "answers": [
+            "Normalno",
+            "Sumnjivo",
+            "Zabavno"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "Kako se trebaš osjećati u razgovoru?",
+          "answers": [
+            "Uplašeno",
+            "Pod pritiskom",
+            "Sigurno i ugodno"
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "question": "Netko te uznemirava. Što prvo napraviti?",
+          "answers": [
+            "Nastaviti razgovor",
+            "Blokirati i reći roditelju",
+            "Ignorirati zauvijek"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "Je li u redu reći roditelju?",
+          "answers": [
+            "Ne",
+            "Samo ponekad",
+            "Da, uvijek"
+          ],
+          "correctAnswer": "2"
         }
       ]
     }
